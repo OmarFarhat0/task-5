@@ -1,0 +1,51 @@
+.hero-card {
+  display: flex;
+  align-items: center;
+  gap: 19.97px;
+}
+
+.hero-card .svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0255950d;
+  width: 59.9px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+.hero-card svg {
+  width: 29.95px;
+  height: 30px;
+}
+
+.hero-card .details h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222222;
+  line-height: 24px;
+  letter-spacing: -0.22px;
+}
+
+.hero-card .details p {
+  opacity: 50%;
+  line-height: 24px;
+  letter-spacing: -0.22px;
+  color: #222222;
+  padding-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .hero-card {
+    gap: 24px;
+  }
+
+  .hero-card .details h3 {
+    color: #16100d;
+  }
+
+  .hero-card .details p {
+    color: #16100d;
+    padding-top: 6px;
+  }
+}

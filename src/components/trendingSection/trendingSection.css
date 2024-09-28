@@ -1,0 +1,35 @@
+.trending-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.trending-section .cards-container {
+  padding-top: 56px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+@media (max-width: 767px) {
+  .trending-section .cards-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .trending-section .cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 991px) {
+  .trending-section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  .trending-section .cards-container {
+    padding-top: 42px;
+    gap: 20px;
+  }
+}
